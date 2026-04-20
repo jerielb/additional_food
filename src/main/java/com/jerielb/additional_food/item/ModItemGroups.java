@@ -1,7 +1,7 @@
 package com.jerielb.additional_food.item;
 
 import com.jerielb.additional_food.AdditionalFood;
-//import com.jerielb.additional_food.block.ModBlocks;
+import com.jerielb.additional_food.block.ModBlocks;
 import net.fabricmc.fabric.api.creativetab.v1.FabricCreativeModeTab;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -43,7 +43,7 @@ public class ModItemGroups {
 				output.accept(ModItems.FISH_BALL);
 				
 				// ### BLOCKS ###
-//				output.accept(ModBlocks.QUARTZ_BLOCK);
+				output.accept(ModBlocks.QUARTZ_BLOCK);
 			})
 			.build();
 	

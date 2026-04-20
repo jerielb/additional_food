@@ -1,6 +1,6 @@
 package com.jerielb.additional_food;
 
-//import com.jerielb.additional_food.block.ModBlocks;
+import com.jerielb.additional_food.block.ModBlocks;
 //import com.jerielb.additional_food.entity.ModEntities;
 //import com.jerielb.additional_food.entity.custom.JollibeeEntity;
 import com.jerielb.additional_food.item.ModItemGroups;
@@ -21,8 +21,8 @@ public class AdditionalFood implements ModInitializer {
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
-//		ModBlocks.registerModBlocks();
-//		
+		ModBlocks.registerModBlocks();
+
 //		ModVillagers.registerVillagers();
 //		ModVillagers.registerVillagers();
 //		// Jollibee Employee Trades
