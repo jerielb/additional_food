@@ -1,6 +1,5 @@
 {
-  "itemgroup.additional_food.additional_blocks": "Additional Food Blocks",
-  "itemgroup.additional_food.additional_items": "Additional Food Items",
+  "creativeTab.additional_food": "Additional Food",
 
   "item.additional_food.chicken_joy": "Chicken Joy",
   "item.additional_food.jolly_spaghetti": "Jolly Spaghetti",
