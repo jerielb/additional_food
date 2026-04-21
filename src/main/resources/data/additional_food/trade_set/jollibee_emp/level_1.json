@@ -1,0 +1,16 @@
+{
+  "amount": 10.0,
+  "random_sequence": "additional_food:trade_set/jollibee_emp/level_1",
+  "trades": [
+    "additional_food:jollibee_emp/emerald_fries", 
+    "additional_food:jollibee_emp/emerald_chicken_nuggets",
+    "additional_food:jollibee_emp/emerald_yum_burger",
+    "additional_food:jollibee_emp/emerald_jolly_hotdog",
+    "additional_food:jollibee_emp/emerald_champ_burger",
+    "additional_food:jollibee_emp/emerald_jolly_spaghetti",
+    "additional_food:jollibee_emp/emerald_burger_steak",
+    "additional_food:jollibee_emp/emerald_palabok",
+    "additional_food:jollibee_emp/emerald_chicken_joy",
+    "additional_food:jollibee_emp/emerald_peach_mango_pie"
+  ]
+}
