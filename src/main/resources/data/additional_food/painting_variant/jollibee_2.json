@@ -1,5 +1,13 @@
 {
   "asset_id": "additional_food:jollibee",
+  "author": {
+    "color": "gray",
+    "translate": "painting.additional_food.jollibee_2.author"
+  },
   "height": 2,
+  "title": {
+    "color": "yellow",
+    "translate": "painting.additional_food.jollibee_2.title"
+  },
   "width": 2
 }
