@@ -1,8 +1,7 @@
 package com.jerielb.additional_food;
 
 import com.jerielb.additional_food.block.ModBlocks;
-//import com.jerielb.additional_food.entity.ModEntities;
-//import com.jerielb.additional_food.entity.custom.JollibeeEntity;
+import com.jerielb.additional_food.entity.ModEntityTypes;
 import com.jerielb.additional_food.item.ModItemGroups;
 import com.jerielb.additional_food.item.ModItems;
 import com.jerielb.additional_food.villager.ModVillagers;
@@ -22,6 +21,6 @@ public class AdditionalFood implements ModInitializer {
 		ModBlocks.registerModBlocks();
 
 		ModVillagers.registerVillagers();
-//		FabricDefaultAttributeRegistry.register(ModEntities.JOLLIBEE, JollibeeEntity.createAttributes());
+		ModEntityTypes.registerAttributes();
 	}
 }
