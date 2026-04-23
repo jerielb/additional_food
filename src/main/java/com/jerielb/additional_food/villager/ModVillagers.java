@@ -18,6 +18,7 @@ import net.minecraft.world.entity.ai.village.poi.PoiType;
 import net.minecraft.world.entity.npc.villager.VillagerProfession;
 import net.minecraft.world.item.trading.TradeSet;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 
 import java.util.function.Predicate;
 import java.util.function.Supplier;
@@ -25,6 +26,8 @@ import java.util.function.Supplier;
 public class ModVillagers {
 	public static PoiType JOLLIBEE_EMP_POI;
 	public static VillagerProfession JOLLIBEE_EMP;
+	public static PoiType STREET_FOOD_VENDOR_POI;
+	public static VillagerProfession STREET_FOOD_VENDOR;
 
 //	public static final RegistryKey<PointOfInterestType> STREET_FOOD_VENDOR_POI_KEY = registerPoiKey("street_food_vendor_poi");
 //	public static final PointOfInterestType STREET_FOOD_VENDOR_EMP_POI = registerPOI("street_food_vendor_poi", Blocks.REINFORCED_DEEPSLATE);
@@ -62,6 +65,10 @@ public class ModVillagers {
 		
 		JOLLIBEE_EMP_POI = registerPoi("jollibee_emp_poi", ModBlocks.QUARTZ_BLOCK);
 		JOLLIBEE_EMP = registerProfession("jollibee_emp", "jollibee_emp_poi", () -> {
+			return (SoundEvent)BuiltInRegistries.SOUND_EVENT.getValue(Identifier.fromNamespaceAndPath("minecraft", "block.wool.hit"));
+		});
+		STREET_FOOD_VENDOR_POI = registerPoi("street_food_vendor_poi", Blocks.REINFORCED_DEEPSLATE);
+		STREET_FOOD_VENDOR = registerProfession("street_food_vendor", "street_food_vendor_poi", () -> {
 			return (SoundEvent)BuiltInRegistries.SOUND_EVENT.getValue(Identifier.fromNamespaceAndPath("minecraft", "block.wool.hit"));
 		});
 				
