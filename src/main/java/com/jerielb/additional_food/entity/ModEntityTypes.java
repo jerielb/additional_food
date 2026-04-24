@@ -26,9 +26,6 @@ public class ModEntityTypes {
 	
 	public static void registerModEntityTypes() {
 		AdditionalFood.LOGGER.info("Registering EntityTypes for " + AdditionalFood.MOD_ID);
-	}
-	
-	public static void registerAttributes() {
 		FabricDefaultAttributeRegistry.register(JOLLIBEE, JollibeeEntity.createCubeAttributes());
 	}
 }

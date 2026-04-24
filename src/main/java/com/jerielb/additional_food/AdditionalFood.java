@@ -21,6 +21,6 @@ public class AdditionalFood implements ModInitializer {
 		ModBlocks.registerModBlocks();
 
 		ModVillagers.registerVillagers();
-		ModEntityTypes.registerAttributes();
+		ModEntityTypes.registerModEntityTypes();
 	}
 }
